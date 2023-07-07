@@ -23,7 +23,7 @@ void bubbleSort(int arr[], int len) {
   
   for (int i = 0; i < len - 1; i++) {
     
-    printf("Number of swaps for the item in index %d (run %d): ", i, i + 1);
+    printf("Number of swaps for the items starting in index %d (run %d): ", i, i + 1);
     int numSwaps = 0;
     
     for (int j = 0; j < len - i - 1; j++) {
